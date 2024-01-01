@@ -62,24 +62,25 @@ form {
     padding: 20px;
     border-left: 3px solid rgb(138, 123, 173);
     box-shadow: 0px 20px 60px rgba(39, 33, 36, 0.5);
-    }
+}
 
 .poem strong {
     color: rgb(197, 176, 231);
-    }
+ }
 
 footer {
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
-    }
+}
 
-    .hint {
-        line-height: 1.5;
-        margin-top: 5px;
-        opacity: 0.6;
-        font-size: 12px;
-    }
+.hint {
+    line-height: 1.5;
+    margin-top: 5px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
 main {
     background-color: rgb(138, 123, 173);
 }
