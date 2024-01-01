@@ -15,9 +15,10 @@
     </header>
 
     <main>
+        <div class="form-container">
         <form id="poem-generator-form">
             <input type="text" 
-            placeholder="Enter the topic of the poem" 
+            placeholder="Enter a topic for a poem to appear" 
             autofocus
             required
             autocomplete="off"
@@ -26,25 +27,26 @@
             />
             <input type="submit" class="button" />
         </form>
-        <div id="poem" id="poem">
-       
-   
-        </div>
+        
+        <div class="hint">i.e: Flower, Paris, Cheese</div>
+    </div>
+        <div id="poem" id="poem"></div>
     </main>
 
    <footer>
     This AI project was coded by 
-    <a href="https://github.com/kzembill?tab=repositories" target="_blank">
-        Kalli Zembillas
-    </a> and is 
-    <a href="https://github.com/kzembill/poem-generator.git" target="_blank"
+    <a href="https://github.com/kzembill?tab=repositories" target="_blank">Kalli Zembillas</a> 
+    and is 
+    <a 
+    href="https://github.com/kzembill/poem-generator.git" 
+    target="_blank"
     >
     open-sourced on GitHub</a
     >
     and is
-    <a href="https://app.netlify.com/sites/poem-generator-final/configuration/general" target="_blank">
-    hosted on netlify.
-    </a>
+    <a href="https://app.netlify.com/sites/poem-generator-final/configuration/general" target="_blank"
+    >hosted on netlify</a
+    >.
    </footer>
 </div>
    <script src="src/index.js"></script>
