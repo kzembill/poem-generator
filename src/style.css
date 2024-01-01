@@ -28,15 +28,15 @@ header {
 
 form {
     padding: 30px;
-    background-color: rgb(86, 57, 133);
-    box-shadow:0px 20px 60px rgba(65, 50, 100, 0.08);
+    background-color: rgb(41, 0, 107);
+    box-shadow:0px 20px 60px rgba(73, 108, 131, 0.08);
     border-radius: 10px;
     display: flex;
     margin-bottom: 30px;
 }
 .instructions {
     padding: 16px;
-    border: 1px solid rgba(39, 33, 36, 0.5);
+    border: 1px solid rgba(221, 89, 155, 0.5);
     width: 80%;
     font-size: 16px;
     border-radius: 50px;
@@ -59,7 +59,11 @@ form {
         line-height: 24px;
         padding: 20px;
         border-left: 3px solid rgb(138, 123, 173);
-        box-shadow: 0px 20px 60px rgba(138, 123, 173, 0.08);
+        box-shadow: 0px 20px 60px rgba(39, 33, 36, 0.5);
+    }
+
+    .poem strong {
+        color: rgb(197, 176, 231);
     }
 
 footer {
@@ -67,3 +71,4 @@ footer {
         font-size: 14px;
         margin-top: 30px;
     }
+
