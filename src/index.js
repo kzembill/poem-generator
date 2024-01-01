@@ -19,12 +19,7 @@ function displayPoem(response) {
     let poemElement = document.querySelector("#poem");
     poemElement.innerHTML = 'Sit tight, we are generating your poem...';
 
-    console.log("Generating poem");
-    console.log(`Prompt: ${prompt}`);
-    console.log(`Context: ${context}`);
-    
     axios.get(apiUrl).then(displayPoem);
-
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
